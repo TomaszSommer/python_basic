@@ -1,0 +1,60 @@
+name = "kamil"
+
+print(len(name)) #ile liter jest w znaku kamil
+print(name.capitalize()) #zamienia pierwszą literę na dużą
+print(name.upper())
+print(name.lower())
+
+name = "Kamil"
+print("wyswietla tylko jedną literę")
+print(name[0])
+print("po dwukropku liczba liter, które chcemy wyświetlić")
+print(name[0:2])
+print(name.upper()[0:2])
+
+print("wyświetla po literze m czyli i + l")
+print(name[3:])
+print("pierwsza litera od końca to jest -1 więc -3 to trzy litery: ")
+print(name[-3:])
+
+channel = "Jak nauczyc się programowania"
+print("poniższy split dzieli poniższy tekst kazdym miejscu gdzie jest spacja. Tworzy listę")
+print(channel.split(" "))
+
+print("operacja służy łączeniu stringów. Ponizej deklaracja, że spacja łączy")
+join_string = "-"
+print(join_string.join(['Jak', 'nauczyć', 'się', 'programowania']))
+
+join_string = "-"
+print(join_string.join(['Jak', 'nauczyć', 'się', 'programowania']))
+print("czy name zaczyna się od danej małej bądz dużej litery")
+print(name.startswith("K"))
+print(name.startswith("k"))
+
+name = "Tomak"
+print(name.endswith("K"))
+print(name.endswith("k"))
+
+
+print("jak usunąć znaki z prawej strony stringa")
+print(name.rstrip("l"))
+print(name.lstrip("K"))
+
+name = "aKamila"
+print(name.lstrip("a"))
+
+name = "Kamil"
+print(name)
+print("Stringi można łączyć: ")
+
+first_name = "Kamil"
+last_name = "Brzeziński"
+
+print(first_name + " " + last_name)
+join_string = " "
+print((join_string.join(first_name + last_name)))
+print((join_string.join([first_name, last_name])))
+
+james_bond = 7
+print("jak dodać 00 przed 7?: w wartości zfill podajemy z ilu znaków ma składać się nasz string")
+print(str(james_bond).zfill(3))
