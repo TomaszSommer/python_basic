@@ -1,0 +1,47 @@
+a = 4
+b = 2
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+print(type(a + b))
+print(type(a - b))
+print(type(a * b))
+print(type(a / b))
+
+a = 4.0
+b = 2
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+print(type(a + b))
+print(type(a - b))
+print(type(a * b))
+print(type(a / b))
+
+a = 5
+b = 3
+
+print(a % b) #modulo reszta z dzielenia
+print(a ** b) #potęga
+
+a = a + 2
+print(a)
+
+aa = 5.0
+ab = 5.0
+ac = 5.0
+ad = 5
+
+print(aa)
+ab += 2
+print(ab)
+ac *= 2
+print(ac)
+ad /= 2
+print(ad)
