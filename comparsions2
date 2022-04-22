@@ -1,0 +1,17 @@
+a = 5
+b = 5
+
+print(a == 5) #sprawdza czy strony dają taki sam wynik
+print(a != 5) #czy różne
+print(a < 5)
+print(a > 5)
+print(a <= 5)
+print(a >= 5)
+
+print(a == b)
+print(a != b)
+
+print()
+
+print(a is b)
+print()
